@@ -48,6 +48,7 @@ html, body {
     width: 95%;
     margin-top: .3rem;
     margin-bottom: 1rem;
+    opacity: 30%;
 }
 
 
@@ -70,6 +71,18 @@ html, body {
 
 .social .fa-youtube {
     color: red !important;
+}
+
+
+.foo-main {
+    color: white;
+    background-color: #272A33;
+}
+
+.copyright {
+    /*color: ;*/
+    width: 100%;
+    background-color: #2E313A;
 }
 
 

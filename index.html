@@ -12,13 +12,13 @@
 </head>
 <body>
 
-<nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
-    <div class="container-fluid">
-
+<nav class="navbar navbar-expand-md navbar-dark bg-transparent fixed-top" id="m-nav">
+    <div class="container-fluid" id="nav-div">
         <a class="navbar-brand" href="#">
-            <div class="d-flex align-items-center">
-                <img style="height: 40px;width: 40px;" src="img/leaf.svg" alt="Farm">
-                <div class="" style="color: white">Smart Farming</div>
+            <div class="d-flex">
+                <a class="nav-link" style="color: white;font-size: large;" href="">
+                    <img style="height: 40px;width: 40px;" src="img/leaf.svg" alt="Farm">Smart Farming
+                </a>
             </div>
         </a>
 
@@ -34,7 +34,7 @@
                 <li class="nav-item"><a class="nav-link" href="#">About</a></li>
                 <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
                 <li class="nav-item">
-                    <a id="subs" style="color: rgba(255,255,255,0.6)" class="btn btn-outline-secondary">Subscribe</a>
+                    <a id="subs" style="color: rgba(255,255,255,0.6)" class="btn btn-secondary">Subscribe</a>
                 </li>
             </ul>
         </div>
@@ -84,7 +84,7 @@
 <div class="container-fluid padding">
     <div class="row welcome text-center">
         <div class="col-12">
-            <h1 class="display-4">Our Services</h1>
+            <h1 class="display-5">Our Services</h1>
         </div>
         <hr>
         <div class="col-12">
@@ -126,8 +126,6 @@
     <hr class="my-4">
 </div>
 
-<!--TODO insha'Allah-->
-
 <!-- Fixed Background.. -->
 
 <figure style="height: 720px">
@@ -139,7 +137,7 @@
 <!-- Gallery (Images) -->
 <div class="container-fluid padding">
     <div class="row text-center">
-        <div class="col-12"><h1 class="display-4">Gallery</h1></div>
+        <div class="col-12"><h1 class="display-5">Gallery</h1></div>
         <hr>
     </div>
 
@@ -147,7 +145,7 @@
 <!-- Team Members (3 Col.) -->
 <div class="container-fluid padding">
     <div class="row padding">
-        <div class="col-12 text-center"><h1 class="display-4">Meet the Team</h1></div>
+        <div class="col-12 text-center"><h1 class="display-5">Meet the Team</h1></div>
         <hr class="my-4 tm-hr">
         <div class="col-md-4 lg-4">
             <div class="card">
@@ -179,17 +177,54 @@
                 </div>
             </div>
         </div>
-
     </div>
-
 </div>
 
 <hr class="my-4">
 
+<!--Contact Form-->
+<div class="container-fluid">
+    <div class="row text-center">
+        <div class="col-12 text-center"><h1 class="display-5">Contact</h1></div>
+        <hr class="my-4 tm-hr">
+        <div class="col-md-6 lg-12">
+            <!--Office locations-->
+            <p class="lead">Corporate Office</p>
+            <p class="text-muted">4461 Cedar Street Moro, AR 72368</p>
+
+            <p class="lead">Farm Location</p>
+            <p class="text-muted">2467 Swick Hill Street New Orleans, LA 70171</p>
+
+            <p class="lead">Working Hours:</p>
+            <p class="text-muted">9.00AM - 5.00PM</p>
+            <p class="lead">Email</p>
+            <p class="text-muted">info@agri-site.ext</p>
+
+        </div>
+        <div class="col-md-6 lg-12">
+            <div class="input-group-lg mb-3">
+                <input type="text" class="form-control" placeholder="Your Name" aria-label="Your Name">
+            </div>
+            <div class="input-group-lg mb-3">
+                <input type="text" class="form-control" placeholder="Your Email" aria-label="Your Email"></div>
+            <div class="input-group-lg mb-3"><input type="text" class="form-control" placeholder="Subject"
+                                                    aria-label="Subject"></div>
+            <div class="input-group-lg mb-3">
+                <textarea class="form-control" placeholder="Your Message..." aria-label="Message"></textarea>
+            </div>
+            <button type="submit" class="btn btn-secondary">Submit</button>
+
+        </div>
+    </div>
+</div>
+
+<hr class="my-4 tm-hr">
+
 <!--Social Icons -->
-<div class="container-fluid padding">
+<div class="container-fluid">
     <div class="row text-center">
         <div class="col-12"><h2>Social Links</h2></div>
+        <hr class="my-4 tm-hr">
         <div class="col-12 social padding">
             <a href="#"><i class="fab fa-facebook"></i></a>
             <a href="#"><i class="fab fa-twitter"></i></a>
@@ -201,11 +236,43 @@
         </div>
     </div>
 </div>
+<hr class="my-4 tm-hr">
+
+<!--TODO insha'Allah-->
 
 <!-- Footer -->
 <footer>
-    <div>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a
-            href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+    <div class="container-fluid">
+        <div class="row text-center foo-main">
+            <!-- Logo and contact -->
+            <div class="col-sm-12 col-md-6 col-lg-3">
+                <p class="lead">Smart Farming</p>
+                <p>All other info. here</p>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-3">
+                <p class="lead">Info</p>
+                <a href="#">Career</a>
+                <br>
+                <a href="#">Terms and Conditions</a>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-3">
+                <p class="lead">Support</p>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-3">
+                <p>Credits</p>
+                <div>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a>from
+                    <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+            </div>
+
+            <div class="copyright text-center py-3">© 2018 Copyright:
+                <a href="#">Smart Farming</a>
+            </div>
+
+        </div>
+
+    </div>
+
+
 </footer>
 
 <!-- Optional JavaScript -->
