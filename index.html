@@ -11,13 +11,209 @@
     <title>Welcome to our Farming website! - Agriculture, Dairy, Poultry, Fishing, </title>
 </head>
 <body>
-<h1 class="">Hello, world!</h1>
+
+<nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
+    <div class="container-fluid">
+
+        <a class="navbar-brand" href="#">
+            <div class="d-flex align-items-center">
+                <img style="height: 40px;width: 40px;" src="img/leaf.svg" alt="Farm">
+                <div class="" style="color: white">Smart Farming</div>
+            </div>
+        </a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarDropdown"><span
+                class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse " id="navbarDropdown">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Solutions</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Team</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Gallery</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+                <li class="nav-item">
+                    <a id="subs" style="color: rgba(255,255,255,0.6)" class="btn btn-outline-secondary">Subscribe</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!--    image slider.. -->
+<div id="mainSlider" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+        <li data-target="#mainSlider" data-slide-to="0" class="active"></li>
+        <li data-target="#mainSlider" data-slide-to="1"></li>
+        <li data-target="#mainSlider" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>Hello World</h5>
+                <p>Test</p>
+            </div>
+            <img class="d-block w-100" src="img/background.png" alt="First slide">
+        </div>
+        <div class="carousel-item">
+            <img class="d-block w-100" src="img/background2.png" alt="Second slide">
+        </div>
+        <div class="carousel-item">
+            <img class="d-block w-100" src="img/background3.png" alt="Third slide">
+        </div>
+    </div>
+</div>
+
+
+<!-- Welcome to site jumbotron -->
+<div class="container-fluid">
+    <div class="row jumbotron">
+        <div class="col-sm-12 col-md-9 col-lg-10"><p class="lead">Welcome to Lorem Ipsum is simply dummy text of the
+            printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the
+            1500s, when an unknown
+            printer took a galley of type and scrambled it to make a type specimen book. </p>
+        </div>
+        <div class="col-sm-12 col-md-3 col-lg-2">
+            <button class="btn btn-outline-secondary">Get a Quote</button>
+        </div>
+    </div>
+</div>
+
+<!--Services 4 column-->
+<div class="container-fluid padding">
+    <div class="row welcome text-center">
+        <div class="col-12">
+            <h1 class="display-4">Our Services</h1>
+        </div>
+        <hr>
+        <div class="col-12">
+            <p class="lead">Welcome to Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
+                galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,
+                but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid padding services-grid">
+    <div class="row text-center padding">
+        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+            <img src="img/diet.svg" alt="">
+            <h3>Agriculture</h3>
+            <p>Built with the latest version of HTML, HTML5</p>
+            <button class="btn btn-outline-secondary">More</button>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+            <img src="img/cow.svg" alt="">
+            <h3>Dairy</h3>
+            <p>Built with the latest version of HTML, HTML5</p>
+            <button class="btn btn-outline-secondary">More</button>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+            <img src="img/hen.svg" alt="">
+            <h3>Poultry</h3>
+            <p>Built with the latest version of HTML, HTML5</p>
+            <button class="btn btn-outline-secondary">More</button>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-12 col-lg-3">
+            <img src="img/tuna.svg" alt="">
+            <h3>Fishing</h3>
+            <p>Built with the latest version of HTML, HTML5</p>
+            <button class="btn btn-outline-secondary">More</button>
+        </div>
+    </div>
+    <hr class="my-4">
+</div>
+
+<!--TODO insha'Allah-->
+
+<!-- Fixed Background.. -->
+
+<figure style="height: 720px">
+    <div class="fixed-wrap">
+        <div id="fixed"></div>
+    </div>
+</figure>
+<hr class="my-5">
+<!-- Gallery (Images) -->
+<div class="container-fluid padding">
+    <div class="row text-center">
+        <div class="col-12"><h1 class="display-4">Gallery</h1></div>
+        <hr>
+    </div>
+
+</div>
+<!-- Team Members (3 Col.) -->
+<div class="container-fluid padding">
+    <div class="row padding">
+        <div class="col-12 text-center"><h1 class="display-4">Meet the Team</h1></div>
+        <hr class="my-4 tm-hr">
+        <div class="col-md-4 lg-4">
+            <div class="card">
+                <img src="img/team1.png" class="card-img-top" alt="">
+                <div class="card-body">
+                    <h4 class="card-title">Member One</h4>
+                    <p class="card-text">He is an entrepreneur.</p>
+                    <a href="" class="btn btn-outline-secondary">See Profile</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 lg-4">
+            <div class="card">
+                <img src="img/team3.png" class="card-img-top" alt="">
+                <div class="card-body">
+                    <h4 class="card-title">Member One</h4>
+                    <p class="card-text">He is an entrepreneur.</p>
+                    <a href="" class="btn btn-outline-secondary">See Profile</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 lg-4">
+            <div class="card">
+                <img src="img/team1.png" class="card-img-top" alt="">
+                <div class="card-body">
+                    <h4 class="card-title">Member One</h4>
+                    <p class="card-text">He is an entrepreneur.</p>
+                    <a href="" class="btn btn-outline-secondary">See Profile</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+
+<hr class="my-4">
+
+<!--Social Icons -->
+<div class="container-fluid padding">
+    <div class="row text-center">
+        <div class="col-12"><h2>Social Links</h2></div>
+        <div class="col-12 social padding">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-google-plus-g"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <!--            <a href="#"> <img src="img/instagram-logo.svg" class="mb-2" style="width: 4rem;height: 4rem;" alt=""></a>-->
+            <a href="#"><i class="fab fa-youtube"></i></a>
+
+        </div>
+    </div>
+</div>
+
+<!-- Footer -->
+<footer>
+    <div>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a
+            href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+</footer>
 
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+<script src="https://kit.fontawesome.com/3633e808e0.js" crossorigin="anonymous"></script>
 <script src="js/script.js"></script>
 </body>
 </html>
