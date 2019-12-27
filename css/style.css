@@ -15,20 +15,25 @@ html, body {
     padding-right: 1.3rem;
 }
 
-/*.carousel-inner .carousel-item {
-    width: 100%;
-    opacity: 0.5;
-    filter: alpha(opacity=50); !* For IE8 and earlier *!
-}*/
+.carousel-inner {
+    background: black !important; /*need for good looking gradient*/
+}
 
-.carousel-item {
-    height: 100vh;
-    min-height: 350px;
+.carousel-item img {
+    /*min-width: 50vw;*/
+    min-width: 100%;
+    max-width: 100vw;
+
+    min-height: 50vh;
+    max-height: 100vh;
+
     background: no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+
+    opacity: .4;
 }
 
 .services-grid img {
