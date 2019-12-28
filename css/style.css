@@ -126,6 +126,7 @@ html, body {
     h3 {
         font-size: 1.4rem;
     }
+
 }
 
 @media (max-width: 576px) {
@@ -133,6 +134,11 @@ html, body {
         font-size: 2rem;
         padding-right: 1rem;
     }
+
+    body, html {
+        font-size: small;
+    }
+
 }
 
 
